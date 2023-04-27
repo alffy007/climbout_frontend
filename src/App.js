@@ -1,7 +1,8 @@
-import './App.css'
+import './App.css';
 import MainDash from './components/MainDash/MainDash';
 import RightSide from './components/RigtSide/RightSide';
 import Sidebar from './components/Sidebar';
+import Chatbot from './components/chatbot/chatbot';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Sidebar/>
         <MainDash/>
         <RightSide/>
+         
       </div>
     </div>
   );

@@ -2,8 +2,14 @@
     /* padding-top: 1rem; */
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+overflow-y: auto;
+
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins&display=swap');
+
+.MainDash::-webkit-scrollbar {display:none;}
 
 @media screen and (max-width: 1200px) {
     .MainDash{
@@ -15,6 +21,7 @@
 @media screen and (max-width: 768px)
 {
     .MainDash{
+      overflow: visible;
         align-items: center;
     }
 }

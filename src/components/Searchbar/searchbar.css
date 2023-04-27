@@ -1,0 +1,12 @@
+
+.container{
+    padding-top: 6%;
+    margin-left: 30%;
+    display: flex;
+}
+.search{
+    height:35px;
+    width: 260%;
+    border: none;
+    border-radius: 10px;
+}

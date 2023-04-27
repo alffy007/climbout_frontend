@@ -21,37 +21,28 @@ import img3 from "../imgs/img3.png";
 export const SidebarData = [
   {
     icon: UilEstate,
-    heading: "Dashboard",
+    heading: "Home",
   },
   {
     icon: UilClipboardAlt,
-    heading: "Orders",
+    heading: "Working",
   },
   {
     icon: UilUsersAlt,
-    heading: "Customers",
-  },
-  {
-    icon: UilPackage,
-    heading: 'Products'
-  },
-  {
-    icon: UilChart,
-    heading: 'Analytics'
+    heading: "Contacts",
   },
 ];
 
 // Analytics Cards Data
 export const cardsData = [
   {
-    title: "Sales",
+    title: "Know it to prevent it",
     color: {
       backGround: "linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)",
       boxShadow: "0px 10px 20px 0px #e0c6f5",
     },
-    barValue: 70,
-    value: "25,970",
-    png: UilUsdSquare,
+    index: 0,
+    link: "25,970",
     series: [
       {
         name: "Sales",
@@ -60,14 +51,14 @@ export const cardsData = [
     ],
   },
   {
-    title: "Revenue",
+    title: "Save a friend ",
     color: {
       backGround: "linear-gradient(180deg, #FF919D 0%, #FC929D 100%)",
       boxShadow: "0px 10px 20px 0px #FDC0C7",
     },
-    barValue: 80,
-    value: "14,270",
-    png: UilMoneyWithdrawal,
+    index: 1,
+    link: "14,270",
+
     series: [
       {
         name: "Revenue",
@@ -76,15 +67,14 @@ export const cardsData = [
     ],
   },
   {
-    title: "Expenses",
+    title: "Reporting a drug sighting",
     color: {
       backGround:
         "linear-gradient(rgb(248, 212, 154) -146.42%, rgb(255 202 113) -46.42%)",
       boxShadow: "0px 10px 20px 0px #F9D59B",
     },
-    barValue: 60,
-    value: "4,270",
-    png: UilClipboardAlt,
+    index: 2,
+    link: "4,270",
     series: [
       {
         name: "Expenses",

@@ -1,0 +1,38 @@
+.cases{
+    display: flex;
+    height: 70px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: var(--pink);
+    display: flex;
+}
+.saved{
+    display: flex;
+    height: 70px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: var(--activeItem);
+}
+.heroes{
+    display: flex;
+    height: 70px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: var(--pink);
+}
+
+.avatar img{
+    padding:15px;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins&display=swap');
+h4
+{
+
+font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    
+    margin-top: 9px;
+}

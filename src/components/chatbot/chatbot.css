@@ -1,0 +1,76 @@
+.CompactCard1 {
+  display: flex;
+  flex: 1;
+  height: 1rem !important;
+  border-radius: 1rem;
+  color: white;
+  padding: 1rem;
+  margin-top: -360PX;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+.CompactCard1:hover {
+  box-shadow: none !important;
+}
+form{
+  display: flex;
+  margin-top: 70px;
+ gap: 10px;
+ margin-left: 10px;
+}
+input{
+  width: 350px;
+  border: none;
+  height: 30px;
+  border-radius: 10px;
+}
+.submitbut{
+  border-radius: 10px;
+  height: 30px;
+  border: none;
+}
+.ExpandedCard {
+  position: absolute;
+  width: 87%;
+  height: 40vh;
+  z-index: 9;
+  margin-top: -720px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  padding: 1rem;
+}
+.chatscreen{
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.chat-history{
+ 
+}
+.ExpandedCard > span:nth-of-type(1) {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  text-shadow: 0px 0px 15px white;
+}
+@media screen and (max-width: 1200px) {
+  .ExpandedCard {
+    top: 2rem;
+    height: 45vh;
+    left: 6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ExpandedCard {
+    top: 8rem;
+    height: 50%;
+    left: 25px;
+    width:80%;
+}
+}

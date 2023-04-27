@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -27,6 +28,9 @@
 .logo > img {
   width: 3rem;
   height: 3rem;
+}
+.logo1{
+  font-family: 'Montserrat', sans-serif;
 }
 
 
